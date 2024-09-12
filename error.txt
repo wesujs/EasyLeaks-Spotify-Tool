@@ -1,0 +1,192 @@
+2024-09-12 13:05:34,822 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 42, in main
+    icon_path = PhotoImage(file="components/icons/app_icon.ico")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 4162, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 4109, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't recognize data in image file "components/icons/app_icon.ico"
+2024-09-12 13:05:53,210 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 42, in main
+    icon_path = PhotoImage(file="components\icons\app_icon.ico")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 4162, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 4109, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "components\iconspp_icon.ico": no such file or directory
+2024-09-12 13:06:12,248 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 42, in main
+    icon_path = PhotoImage(file="components\\icons\\app_icon.ico")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 4162, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 4109, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't recognize data in image file "components\icons\app_icon.ico"
+2024-09-12 13:09:26,972 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 193, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 45, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "/components/icons\app_icon.ico" not defined
+2024-09-12 13:10:03,687 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 193, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 45, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "/app_icon.ico" not defined
+2024-09-12 13:10:17,833 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 193, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 45, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "/components/icons/app_icon.ico" not defined
+2024-09-12 13:10:45,140 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 193, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 45, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "\components\icons\app_icon.ico" not defined
+2024-09-12 13:17:29,009 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "/components/icons/app_icon.ico" not defined
+2024-09-12 13:17:59,773 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "components\iconspp_icon.ico" not defined
+2024-09-12 13:18:49,019 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "..\components\iconspp_icon.ico" not defined
+2024-09-12 13:18:59,475 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "...\components\iconspp_icon.ico" not defined
+2024-09-12 13:19:05,628 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap ".\components\iconspp_icon.ico" not defined
+2024-09-12 13:19:15,614 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "components\iconspp_icon.ico" not defined
+2024-09-12 13:19:29,083 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "/components/icons/app_icon.ico" not defined
+2024-09-12 13:19:41,187 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 191, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 43, in main
+    app.iconbitmap(icon_path)
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "../components/icons/app_icon.ico" not defined
+2024-09-12 13:25:01,713 - ERROR - Unhandled Exception: 
+Traceback (most recent call last):
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 190, in <module>
+    main()
+  File "C:\Users\Owner\Documents\Personal Projects\easy_leaks\main.py", line 42, in main
+    app.iconbitmap("components/icons/app_icon")
+  File "C:\Users\Owner\AppData\Roaming\Python\Python312\site-packages\customtkinter\windows\ctk_tk.py", line 232, in iconbitmap
+    super().wm_iconbitmap(bitmap, default)
+  File "C:\Program Files\Python312\Lib\tkinter\__init__.py", line 2156, in wm_iconbitmap
+    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bitmap "components/icons/app_icon" not defined
