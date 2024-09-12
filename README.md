@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/wesujs/EasyLeaks-Spotify-Tool">
-    <img src="app_logo" alt="Logo" width="80" height="80">
+    <img src="app_logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">EasyLeaks-Spotify-Tool</h3>
@@ -82,8 +82,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][EasyLeaks Home]](https://github.com/wesujs/EasyLeaks-Spotify-Tool)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -105,7 +103,7 @@
 
 ### Prerequisites
 
- - Python 3.12 or later.[Python-url]
+ - Python 3.12 or later [Python-url]
  - Spotify Desktop App
  - Windows Operating System's Only (For Now).
 
@@ -218,7 +216,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Willie Spratt - [@your_twitter](https://twitter.com/wesujs)
+Willie Spratt - [@wesujs](https://twitter.com/wesujs)
 
 Project Link: [EasyLeaks](https://github.com/wesujs/EasyLeaks-Spotify-Tool)
 
